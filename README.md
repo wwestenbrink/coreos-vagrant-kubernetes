@@ -1,7 +1,12 @@
-# CoreOS Vagrant
+# CoreOS Vagrant +Kubernetes
 
 This repo provides a template Vagrantfile to create a CoreOS virtual machine using the VirtualBox software hypervisor.
 After setup is complete you will have a single CoreOS virtual machine running on your local machine.
+
+## Adding Kubernetes binaries
+[Build kubernetes binaries] (https://github.com/kelseyhightower/kubernetes-coreos/blob/master/docs/build.md)
+
+kubernetes-binaries/ are mounted to /opt/kubernetes-binaries by vagrant
 
 ## Streamlined setup
 
